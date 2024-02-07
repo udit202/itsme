@@ -1,0 +1,1099 @@
+@media only screen and (max-width: 600px) and  (min-width: 280px)  {
+    .self_container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .self {
+        width: 90%;
+        text-align: center;
+        position: static;
+    }
+
+    .self>section {
+        width: 95%;
+    }
+
+    .self>section>div>ul {
+        text-align: center;
+    }
+
+    .self>section>img {
+        position: static;
+        width: 200px;
+        height: 230px;
+        overflow: hidden;
+        border-radius: 25px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    .self>section>div>h2{
+        position: static;
+    }
+
+    .self>section>div>ul {
+        position: static;
+        text-align: center;
+
+    }
+    .menu {
+        display: block;
+        position: static;
+    }
+
+    #menu_container {
+        display: block;
+        position: static;
+        text-align: right;
+        background-color: transparent;
+    }
+
+    #menu_container>button {
+        background-color: red;
+    }
+    .menu_icon {
+        display: none;
+    }
+    .menu>div {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(4, 10, 53, 0.748);
+    }
+    .menu_list {
+        position: fixed;
+        top: 10%;
+        right: 2%;
+        width: 0px;
+        height: 68%;
+        background-color: rgb(3, 3, 22);
+        overflow: hidden;
+        border-radius: 25px;
+        box-shadow: rgb(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        transition: width .5s;
+        transition-delay: .2s;
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        background-color: transparent;
+        scroll-behavior: smooth;
+        height: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .container>div {
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        scroll-behavior: smooth;
+
+    }
+
+
+    .container>div>div {
+        display: block;
+        width: 98%;
+        justify-content: left;
+        margin-top: 20px;
+        margin-left: 0px;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    .changing_text::after{
+        content: "";
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        top: 2%;
+        width:100%;
+        border-left: 2px solid red;
+        background-color: rgb(3, 3, 22);
+        height: 100%;
+        animation: changing 1.4s steps(14) infinite
+    }
+    .Inroduction {
+        width: 100%;
+        /* background-color: gray; */
+        border-radius: 25px;
+        overflow: hidden;
+
+    }
+
+    .Inroduction>div {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .Inroduction>div:nth-child(2) {
+        width: 80%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(2)>h1 {
+        color: white;
+        font-size: 55px;
+    }
+
+    .Inroduction>div:nth-child(3) {
+        width: 80%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(3)>h1 {
+        color: white;
+        font-size: auto;
+    }
+
+    .Inroduction>div:nth-child(4) {
+        width: 80%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(4)>h1 {
+        color: white;
+        font-size: auto;
+    }
+
+    .Inroduction>div:nth-child(5) {
+        width: 80%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(5)>h1 {
+        color: white;
+        font-size: auto;
+
+    }
+
+    .Inroduction>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        padding-left: 30px;
+        transition: border .4s;
+        position: relative;
+
+    }
+    .Inroduction>div>button>a {
+        text-decoration: none;
+        color: white;
+    }
+    .Inroduction>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        /* padding-left: 30px; */
+        transition: border .4s;
+        position: relative;
+    
+    }
+    .Inroduction>div:nth-child(1)>button>a>span{
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
+    .advantages>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        /* padding-left: 30px; */
+        transition: border .4s;
+        position: relative;
+    
+    }
+    .Inroduction>div>button:hover {
+        border: 1px solid blue;
+    }
+    .advantages>div:nth-child(2) {
+        width: 95%;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 1px solid white; */
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    
+    .advantages>div:nth-child(2)>div {
+        width: 140px;
+        height: 210px;
+        background-color: transparent;
+        margin: 5px;
+        border-radius: 25px;
+        overflow: hidden;
+        text-align: center;
+        color: white;
+        border: 1px solid white;
+    }
+    .pricing>div {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        background-color: transparent;
+        border: 1px solid rgb(21, 61, 109);
+        border-radius: 25px;
+        margin: 10px;
+        overflow: hidden;
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+    .pricing>div:nth-child(2)>div>h1 {
+        position: absolute;
+        top: -12px;
+        left: 20px;
+        color: white;
+        font-size: auto;
+        z-index: 1;
+    }
+    
+    .pricing>div:nth-child(2)>div>p {
+        position: absolute;
+        top: 20px;
+        right: -10px;
+        color: white;
+        width: 60%;
+        word-wrap: break-word;
+    }
+    .pricing>div>ul {
+        color: white;
+        margin: 10px;
+    }
+
+}
+@media only screen and (max-width: 778px) and (min-width: 600px){
+    .self_container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .self {
+        width: 90%;
+        text-align: center;
+        position: static;
+    }
+
+    .self>section {
+        width: 95%;
+    }
+
+    .self>section>div>ul {
+        text-align: center;
+    }
+
+    .menu {
+        display: block;
+        position: static;
+    }
+
+    #menu_container {
+        display: block;
+        position: static;
+        text-align: right;
+        background-color: transparent;
+    }
+
+    #menu_container>button {
+        background-color: red;
+    }
+    .menu_icon {
+        display: none;
+    }
+    .menu>div {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(4, 10, 53, 0.748);
+    }
+    .menu_list {
+        position: fixed;
+        top: 10%;
+        right: 2%;
+        width: 0px;
+        height: 68%;
+        background-color: rgb(3, 3, 22);
+        overflow: hidden;
+        border-radius: 25px;
+        box-shadow: rgb(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        transition: width .5s;
+        transition-delay: .2s;
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        background-color: transparent;
+        scroll-behavior: smooth;
+        height: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .container>div {
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        scroll-behavior: smooth;
+
+    }
+
+
+    .container>div>div {
+        display: block;
+        width: 98%;
+        justify-content: left;
+        margin-top: 20px;
+        margin-left: 0px;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    .changing_text::after{
+        content: "";
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        top: 2%;
+        width:100%;
+        border-left: 2px solid red;
+        background-color: rgb(3, 3, 22);
+        height: 100%;
+        animation: changing 1.4s steps(14) infinite
+    }
+    .Inroduction {
+        width: 100%;
+        /* background-color: gray; */
+        border-radius: 25px;
+        overflow: hidden;
+
+    }
+
+    .Inroduction>div {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .Inroduction>div:nth-child(2) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(2)>h1 {
+        color: white;
+        font-size: 55px;
+    }
+
+    .Inroduction>div:nth-child(3) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(3)>h1 {
+        color: white;
+        font-size: auto;
+    }
+
+    .Inroduction>div:nth-child(4) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(4)>h1 {
+        color: white;
+        font-size: auto;
+    }
+
+    .Inroduction>div:nth-child(5) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(5)>h1 {
+        color: white;
+        font-size: auto;
+
+    }
+
+
+    .Inroduction>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        /* padding-left: 30px; */
+        transition: border .4s;
+        position: relative;
+    
+    }
+    .Inroduction>div:nth-child(1)>button>a>span{
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
+    .advantages>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        /* padding-left: 30px; */
+        transition: border .4s;
+        position: relative;
+    
+    }
+
+    .Inroduction>div>button>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .Inroduction>div>button:hover {
+        border: 1px solid blue;
+    }
+    .pricing>div {
+        width: 350px;
+        height: auto;
+        text-align: center;
+        background-color: transparent;
+        border: 1px solid rgb(21, 61, 109);
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 912px) and (min-width: 778px){
+    .self_container {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .self {
+        width: 90%;
+        text-align: center;
+        position: static;
+    }
+
+    .self>section {
+        width: 95%;
+    }
+
+    .self>section>div>ul {
+        text-align: center;
+    }
+
+    .menu {
+        display: block;
+        position: static;
+    }
+
+    #menu_container {
+        display: block;
+        position: static;
+        text-align: right;
+        background-color: transparent;
+    }
+
+    #menu_container>button {
+        background-color: red;
+    }
+    .menu_icon {
+        display: none;
+    }
+    .menu>div {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(4, 10, 53, 0.748);
+    }
+    .menu_list {
+        position: fixed;
+        top: 10%;
+        right: 2%;
+        width: 0px;
+        height: 450px;
+        background-color: rgb(3, 3, 22);
+        overflow: hidden;
+        border-radius: 25px;
+        box-shadow: rgb(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        transition: width .5s;
+        transition-delay: .2s;
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        background-color: transparent;
+        scroll-behavior: smooth;
+        height: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .container>div {
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        scroll-behavior: smooth;
+
+    }
+
+
+    .container>div>div {
+        display: block;
+        width: 98%;
+        justify-content: left;
+        margin-top: 20px;
+        margin-left: 0px;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    .changing_text::after{
+        content: "";
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        top: 2%;
+        width:100%;
+        border-left: 2px solid red;
+        background-color: rgb(3, 3, 22);
+        height: 100%;
+        animation: changing 1.4s steps(14) infinite
+    }
+    .Inroduction {
+        width: 100%;
+        /* background-color: gray; */
+        border-radius: 25px;
+        overflow: hidden;
+
+    }
+
+    .Inroduction>div {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .Inroduction>div:nth-child(2) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(2)>h1 {
+        color: white;
+        font-size: 55px;
+    }
+
+    .Inroduction>div:nth-child(3) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(3)>h1 {
+        color: white;
+        font-size: auto;
+    }
+
+    .Inroduction>div:nth-child(4) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(4)>h1 {
+        color: white;
+        font-size: auto;
+    }
+
+    .Inroduction>div:nth-child(5) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(5)>h1 {
+        color: white;
+        font-size: auto;
+
+    }
+
+    .Inroduction>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        /* padding-left: 30px; */
+        transition: border .4s;
+        position: relative;
+    
+    }
+    .Inroduction>div:nth-child(1)>button>a>span{
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
+    .advantages>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        /* padding-left: 30px; */
+        transition: border .4s;
+        position: relative;
+    
+    }
+
+    .Inroduction>div>button>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .Inroduction>div>button:hover {
+        border: 1px solid blue;
+    }
+    .pricing>div {
+        width: 350px;
+        height: auto;
+        text-align: center;
+        background-color: transparent;
+        border: 1px solid rgb(21, 61, 109);
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+
+}
+@media only screen and (max-width: 1024px) and (min-width: 912px){
+    .self_container {
+        display: block;
+        width: 100%;
+        /* height: 250px; */
+        margin: 10px;
+        text-align: center;
+    }
+
+    .self {
+        width: 90%;
+        text-align: center;
+        position: static;
+    }
+
+    .self>section {
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .self>section>h1{
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        font-size: 35px;
+        color: white;
+    }
+    .self>section>h2{
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        color: white;
+        font-size: 35px;
+    }
+    
+    .self>section>img {
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        width: 200px;
+        height: 230px;
+        overflow: hidden;
+        border-radius: 25px;
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    .self>section>div>h2{
+        position: absolute;
+        bottom: 23%;
+        left: 40%;
+        margin: 0px;
+    }
+
+    .self>section>div>ul {
+        position: absolute;
+        text-align: center;
+        bottom: 0px;
+    }
+
+    .menu {
+        display: block;
+        position: static;
+    }
+
+    #menu_container {
+        display: block;
+        position: static;
+        text-align: right;
+        background-color: transparent;
+    }
+
+    #menu_container>button {
+        background-color: red;
+    }
+    .menu_icon {
+        position: fixed;
+        top: 16%;
+        right: 1%;
+        color: white;
+        width: 50px;
+        border: 1px solid white;
+        border-radius: 50px;
+    }
+
+    .menu_icon {
+        display: block;
+    }
+    .menu>div {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(4, 10, 53, 0.748);
+    }
+    .menu_list {
+        position: fixed;
+        top: 10%;
+        right: 2%;
+        width: 0px;
+        height: 68%;
+        background-color: rgb(3, 3, 22);
+        overflow: hidden;
+        border-radius: 25px;
+        box-shadow: rgb(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+        margin-bottom: 30px;
+        padding-bottom: 20px;
+        transition: width .5s;
+        transition-delay: .2s;
+        margin-bottom: 20px;
+    }
+    .container {
+        width: 100%;
+        display: block;
+        justify-content: center;
+        background-color: transparent;
+        scroll-behavior: smooth;
+        height: auto;
+        margin-bottom: 20px;
+
+    }
+
+    .container>div {
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        background-color: transparent;
+        scroll-behavior: smooth;
+
+    }
+
+
+    .container>div>div {
+        display: block;
+        width: 98%;
+        justify-content: left;
+        margin-top: 20px;
+        margin-left: 0px;
+        border-radius: 25px;
+        overflow: hidden;
+    }
+    .changing_text::after{
+        content: "";
+        z-index: 2;
+        position: absolute;
+        left: 0;
+        top: 2%;
+        width:100%;
+        border-left: 2px solid red;
+        background-color: rgb(3, 3, 22);
+        height: 100%;
+        animation: changing 1.4s steps(14) infinite
+    }
+    .Inroduction {
+        width: 100%;
+        /* background-color: gray; */
+        border-radius: 25px;
+        overflow: hidden;
+
+    }
+
+    .Inroduction>div {
+        width: 100%;
+        text-align: left;
+
+    }
+
+    .Inroduction>div:nth-child(2) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(2)>h1 {
+        color: white;
+        font-size: 55px;
+    }
+
+    .Inroduction>div:nth-child(3) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(3)>h1 {
+        color: white;
+        font-size: auto;
+    }
+
+    .Inroduction>div:nth-child(4) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(4)>h1 {
+        color: white;
+        font-size: auto;
+    }
+
+    .Inroduction>div:nth-child(5) {
+        width: 90%;
+        text-align: left;
+        border: 1px solid white;
+        margin: 20px;
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    .Inroduction>div:nth-child(5)>h1 {
+        color: white;
+        font-size: auto;
+
+    }
+
+    .Inroduction>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        padding-left: 30px;
+        transition: border .4s;
+
+    }
+
+    .Inroduction>div>button>a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .Inroduction>div>button:hover {
+        border: 1px solid blue;
+    }
+    .Inroduction>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        /* padding-left: 30px; */
+        transition: border .4s;
+        position: relative;
+    
+    }
+    .Inroduction>div:nth-child(1)>button>a>span{
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
+    .advantages>div>button {
+        margin: 10px 30px;
+        font-size: 17px;
+        border: 1px solid white;
+        border-radius: 25px;
+        padding: 10px 20px 10px 70px;
+        background-color: transparent;
+        /* padding-left: 30px; */
+        transition: border .4s;
+        position: relative;
+    
+    }
+    .advantages>div:nth-child(1)>button>a>span{
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
+    
+    .pricing>div {
+        width: 350px;
+        height: auto;
+        text-align: center;
+        background-color: transparent;
+        border: 1px solid rgb(21, 61, 109);
+        border-radius: 25px;
+        overflow: hidden;
+        padding: 5px;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 480px) {
+    
+}
+@media only screen and (max-width: 480px) {
+    
+}
