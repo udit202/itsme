@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="" id="search_box" placeholder="type..." onkeyup="searchme()">
+    <table id="mytable">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                rollno
+            </th>
+            <th>
+                course
+            </th>
+        </tr>
+        <tr>
+            <td>
+                udit
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                asdf
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                viney
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                arun
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                abc
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                xyz
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                erwe
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                add
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                abdul
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                qwewq
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                amar
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+        <tr>
+            <td>
+                zxcv
+            </td>
+            <td>
+                221
+            </td>
+            <td>
+                BA
+            </td>
+        </tr>
+    
+    </table>
+    <script>
+        function searchme(){
+            let input = document.getElementById("search_box").value;
+            filter= input.toUpperCase()
+            console.log(filter)
+            const mytable = document.getElementById("mytable");
+            tr = mytable.getElementsByTagName("tr");
+            let i=0
+            while(i<tr.length ){
+                td=tr[i].getElementsByTagName("td")[0];
+                if(td){
+                   let  textvalue = td.textContent||td.innerHTML;
+                   let result= textvalue.toUpperCase().indexOf(filter);
+                   if(result>-1){
+                    console.log("work")
+                    tr[i].style.display="";
+                   }
+                   else{
+                    tr[i].style.display="none";
+                    // console.log("not work")
+                   }
+                   
+                }
+                
+                i++;
+            }
+        }
+    </script>
+</body>
+</html>
